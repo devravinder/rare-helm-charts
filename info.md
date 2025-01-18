@@ -55,6 +55,7 @@ Add Reposiory in Artifacthub:-
   - in arttifacthub & add repository
      - Repository Name: simple-node-express
      - Repository URL: https://github.com/devravinder/rare-helm-charts
+                - or custom domain name ( https://helm-charts.paravartech.com )
      - Kind: "Helm"
 
      - Note:-
@@ -64,7 +65,7 @@ Add Reposiory in Artifacthub:-
           - 
 
 Verify the chart:-
-  - `helm repo add rare https://github.com/devravinder/rare-helm-charts`
+  - `helm repo add rare https://helm-charts.paravartech.com`
   - `helm repo update`
   - `helm search repo simple-node-express`
 

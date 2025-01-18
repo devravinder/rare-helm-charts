@@ -27,7 +27,7 @@ appVersion: "1.0.0"
 keywords:
   - nodejs
   - express
-home: "https://github.com/devravinder/rare-helm-charts"
+home: "https://helm-charts.paravartech.com"
 sources:
   - "https://github.com/devravinder/rare-helm-charts"
 maintainers:
