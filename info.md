@@ -57,6 +57,12 @@ Add Reposiory in Artifacthub:-
      - Repository URL: https://github.com/devravinder/rare-helm-charts
      - Kind: "Helm"
 
+     - Note:-
+       - if we are using custom domain name
+          - add CNAME in DNS settings in domain name provider ( maintainer, i.e Sqarespace )
+          - add CNAME file in the repository root folder
+          - 
+
 Verify the chart:-
   - `helm repo add rare https://github.com/devravinder/rare-helm-charts`
   - `helm repo update`
